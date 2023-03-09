@@ -14,6 +14,5 @@ aux = ["0"]*n
 
 for i in range(2 ** n):
     l.append("".join(aux))
+    print(aux)
     aux = increase(aux, n - 1)
-
-print(l)
