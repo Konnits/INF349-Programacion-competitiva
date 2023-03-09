@@ -2,7 +2,7 @@ def increase(l, pos):
     if pos == -1:
         return l
     if l[pos] == "0":
-        l[pos] = "1"#amoe esto es para el ramo :/
+        l[pos] = "1"
         return l
     if l[pos] == "1":
         l[pos] = "0"
