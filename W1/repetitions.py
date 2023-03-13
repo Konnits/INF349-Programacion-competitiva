@@ -1,20 +1,15 @@
-text = input("")
+cadena = input("")
+cont=1
+max_cont=0
+letra_anterior=""
 
-i = 1
-n = len(text)
-counter = 1
-max_counter = 1
-
-for char in text:
-    if i == n:
-        if max_counter < counter:
-            max_counter = counter
-        break
-    if char == text[i]:
-        counter += 1
+for letra in cadena:
+    if letra== letra_anterior:
+        cont+=1
     else:
-        if max_counter < counter:
-            max_counter = counter
-        counter = 1
-    i += 1
-print(max_counter)
+        cont=1
+
+    if max_cont<cont:
+        max_cont= cont
+    letra_anterior=letra
+print(max_cont)
