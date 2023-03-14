@@ -153,6 +153,17 @@ Un número espiral es una grilla infinita, cuyo elemento en la esquina izquierda
   </table>
 </p>
 
+La tarea es encontrar el número en la fila **y** y la columna **x**.
+
+### Input
+
+La primera línea de input será un entero **t**, que será la cantidad de números que se ingresarán para consultar.
+
+Después de esto se ingresarán **t** líneas, cada una contendrá un par de enteros **y** y **x**, separados por un espacio.
+
+### Output
+Para cada línea de parejas **y** y **x**, se mostrará por pantalla el valor del espiral que está en dicha posición.
+
 ## [Gray Code](https://cses.fi/problemset/task/2205)
 
 Un *Gray Code* es una lista de todas los posibles strings de largo **n**, donde cada par de strings sucesivos difieren exactamente en un solo bit (En otras palabras la distancia de Hamming es exactamente uno).
