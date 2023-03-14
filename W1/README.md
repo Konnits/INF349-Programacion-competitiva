@@ -10,18 +10,18 @@ Consideremos un algoritmo que toma como input un entero *n*. Si *n* es un númer
 </p>
 
 La tarea es simular la ejecución de este algoritmo para un valor **n**.
-**Input**
+### Input
 El único input que debe recibir el programa es un entero **n**.
 
-**Output**
+### Output
 Mostrar por pantalla un línea que contenga todos los valores de **n** durante el algoritmo.
 
 ## [Gray Code](https://cses.fi/problemset/task/2205)
 
 Un *Gray Code* es una lista de todas los posibles strings de largo **n**, donde cada par de strings sucesivos difieren exactamente en un solo bit (En otras palabras la distancia de Hamming es exactamente uno).
 
-**Input**
+### Input
 El único input que debe recibir el programa es un entero **n**.
 
-**Output**
+### Output
 Mostrar por pantalla las $2^n$ línas que describen el *Gray Code*. Se admite cualquier solución válida.
