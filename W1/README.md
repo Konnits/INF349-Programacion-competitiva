@@ -16,6 +16,50 @@ El único input que debe recibir el programa es un entero **n**.
 ### Output
 Mostrar por pantalla un línea que contenga todos los valores de **n** durante el algoritmo.
 
+## [Missing Number](https://cses.fi/problemset/task/1083)
+Tendremos todos los números entre $1,2, ..., n$; con exepción de uno. La tarea es encontrar el número faltante.
+
+### Input
+Tendremos dos líneas de inputs, la primera es un entero **n**.
+
+La segunda línea de input contendrá $n-1$ números, cada uno separado por un espacio. Cada uno será distinto y además estarán entre **1** y **n**, inclusive.
+
+### Output
+Mostrar por pantalla el número faltante.
+
+## [Repetitions](https://cses.fi/problemset/task/1069)
+Tendremos una secuencia de **ADN**, es decir, un string que contiene una sucesión de los caracteres A, C, G y T. La tarea es encontrar la repetición más larga y continua de un mismo carácter.
+
+### Input
+Una secuencia de **ADN**.
+
+### Output
+Mostrar por pantalla el entero que representa el largo de la cadena más larga, mencionada anteriormente.
+
+## [Increasing Array](https://cses.fi/problemset/task/1094)
+Tendremos un arreglo de **n** enteros. La tarea es modificar el arreglo de tal forma que este sea creciente, es decir, cada elemento es más grande o igual que el anterior.
+
+Para lograr la tarea, se poseen movimientos, aumentar en una unidad un elemento del arreglo, ¿Cuál es el mínimo número de movimientos requeridos?
+
+### Input
+La primera línea de input será un entero **n**.
+
+La segunda línea será una secuencia de **n** enteros que conforman el arreglo.
+
+### Output
+Mostrar por pantalla el número mínimo de elementos para hacer que el arreglo sea creciente.
+
+## [Permutations](https://cses.fi/problemset/task/1070)
+Una permutación se enteros $1, ..., n$ se dice que es **beautiful** o en español **hermosa** si no existe ningún par de elementos adyacentes que difieran en una unidad.
+
+Dado un entero **n**, el objetivo es construir una permutación hermosa, si existe.
+
+### Input
+El único input del programa es un entero **n**.
+
+### Output
+Mostrar por pantalla una permutación hermosa de $1, ..., n$ enteros. Si es que existe la permutación, se puede imprimir cualquiera de las posibles. Si no existe tiene que imprimir "NO SOLUTION".
+
 ## [Gray Code](https://cses.fi/problemset/task/2205)
 
 Un *Gray Code* es una lista de todas los posibles strings de largo **n**, donde cada par de strings sucesivos difieren exactamente en un solo bit (En otras palabras la distancia de Hamming es exactamente uno).
