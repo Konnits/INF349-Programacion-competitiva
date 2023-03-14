@@ -64,11 +64,9 @@ Mostrar por pantalla una permutación hermosa de $1, ..., n$ enteros. Si es que 
 Un número espiral es una grilla infinita, cuyo elemento en la esquina izquierda superior es el número 1. A continuación se muestran las primeras 5 capas:
 
 <p align="center">
-| #1 | #2 | #9 |
-| :---: | :---: | :---: |
-| #4 | #3 | #8 |
-| :---: | :---: | :---: |
-| #5 | #6 | #7 |
+| 1 | 2 | 9 |
+| 4 | 3 | 8 |
+| 5 | 6 | 7 |
 </p>
 
 ## [Gray Code](https://cses.fi/problemset/task/2205)
