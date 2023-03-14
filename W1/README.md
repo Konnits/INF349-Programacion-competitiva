@@ -16,15 +16,6 @@ El único input que debe recibir el programa es un entero **n**.
 ### Output
 Mostrar por pantalla un línea que contenga todos los valores de **n** durante el algoritmo.
 
-## [Number Spiral](https://cses.fi/problemset/task/1071)
-Un número espiral es una grilla infinita, cuyo elemento en la esquina izquierda superior es el número 1. A continuación se muestran las primeras 5 capas:
-
-<p align="center">
-| Attempt | #1    | #2    |
-| :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
-</p>
-
 ## [Missing Number](https://cses.fi/problemset/task/1083)
 Tendremos todos los números entre $1,2, ..., n$; con exepción de uno. La tarea es encontrar el número faltante.
 
@@ -68,6 +59,17 @@ El único input del programa es un entero **n**.
 
 ### Output
 Mostrar por pantalla una permutación hermosa de $1, ..., n$ enteros. Si es que existe la permutación, se puede imprimir cualquiera de las posibles. Si no existe tiene que imprimir "NO SOLUTION".
+
+## [Number Spiral](https://cses.fi/problemset/task/1071)
+Un número espiral es una grilla infinita, cuyo elemento en la esquina izquierda superior es el número 1. A continuación se muestran las primeras 5 capas:
+
+<p align="center">
+| #1 | #2 | #9 |
+| :---: | :---: | :---: |
+| #4 | #3 | #8 |
+| :---: | :---: | :---: |
+| #5 | #6 | #7 |
+</p>
 
 ## [Gray Code](https://cses.fi/problemset/task/2205)
 
