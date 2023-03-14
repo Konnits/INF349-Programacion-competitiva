@@ -1,29 +1,21 @@
-def safe_increase(l, pos, n):
-    if pos == n - 1:
-        l[pos] = "1"
-        return l
-    if pos == 0:
-        if l[pos] == "0":
-            l[pos] = "1"
-        return l
+def swap(arr, pos):
+    if arr[pos] == "0":
+        arr[pos] = "1"
     else:
-        if l[pos] == "0":
-            l[pos] = "1"
-        else:
-            l[pos + 1] = "0"
-        return l
+        arr[pos] = "0"
+
+def operations(n, op = []):
+    if n == 1:
+        return [1]
+    else:
+        return operations(n-1, op) + [n] + operations(n-1, op)
+    
 n = int(input())
-pos = n - 1
-p = 0
+arr = ["0"] * n
 
-aux = ["0"] * n
+op = operations(n)
 
-for i in range(2 ** n):
-    print("".join(aux), pos)
-    aux = safe_increase(aux, pos, n)
-    if p % 2 == 0:
-        pos = pos - 1
-        if pos == -1:
-            pos = n - 1
-            p += 1
-    p += 1
+for move in op:
+    print("".join(arr))
+    swap(arr, n - move)
+print("".join(arr))
