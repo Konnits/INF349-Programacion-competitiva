@@ -63,13 +63,16 @@ Mostrar por pantalla una permutación hermosa de $1, ..., n$ enteros. Si es que 
 ## [Number Spiral](https://cses.fi/problemset/task/1071)
 Un número espiral es una grilla infinita, cuyo elemento en la esquina izquierda superior es el número 1. A continuación se muestran las primeras 5 capas:
 
-<p align="center">
-| | | |
-|-|-|-|
-|1|2|9|
-|4|3|8|
-|5|6|7|
-</p>
+<table>
+  <tr>
+    <td>
+      1
+    </td>
+    <td>
+      2
+    </td>
+  </tr>
+</table>
 
 ## [Gray Code](https://cses.fi/problemset/task/2205)
 
