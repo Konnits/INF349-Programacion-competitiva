@@ -8,7 +8,8 @@ def operations(n, op = []):
     if n == 1:
         return [1]
     else:
-        return operations(n-1, op) + [n] + operations(n-1, op)
+        prev = operations(n-1, op)
+        return prev + [n] + prev
     
 n = int(input())
 arr = ["0"] * n
