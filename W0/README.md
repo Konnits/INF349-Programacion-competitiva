@@ -16,6 +16,8 @@ El único input que debe recibir el programa es un entero **n**.
 ### Output
 Mostrar por pantalla un línea que contenga todos los valores de **n** durante el algoritmo.
 
+### [Nuestra solución](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W1/weird_algorithm.py)
+
 ## [Missing Number](https://cses.fi/problemset/task/1083)
 Tendremos todos los números entre $1,2, ..., n$; con exepción de uno. La tarea es encontrar el número faltante.
 
@@ -36,6 +38,8 @@ Una secuencia de **ADN**.
 ### Output
 Mostrar por pantalla el entero que representa el largo de la cadena más larga, mencionada anteriormente.
 
+### [Nuestra solución](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W1/repetitions.py)
+
 ## [Increasing Array](https://cses.fi/problemset/task/1094)
 Tendremos un arreglo de **n** enteros. La tarea es modificar el arreglo de tal forma que este sea creciente, es decir, cada elemento es más grande o igual que el anterior.
 
@@ -49,6 +53,8 @@ La segunda línea será una secuencia de **n** enteros que conforman el arreglo.
 ### Output
 Mostrar por pantalla el número mínimo de elementos para hacer que el arreglo sea creciente.
 
+### [Nuestra solución](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W1/increasing_array.py)
+
 ## [Permutations](https://cses.fi/problemset/task/1070)
 Una permutación se enteros $1, ..., n$ se dice que es **beautiful** o en español **hermosa** si no existe ningún par de elementos adyacentes que difieran en una unidad.
 
@@ -59,6 +65,8 @@ El único input del programa es un entero **n**.
 
 ### Output
 Mostrar por pantalla una permutación hermosa de $1, ..., n$ enteros. Si es que existe la permutación, se puede imprimir cualquiera de las posibles. Si no existe tiene que imprimir "NO SOLUTION".
+
+### [Nuestra solución](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W1/permutations.py)
 
 ## [Number Spiral](https://cses.fi/problemset/task/1071)
 Un número espiral es una grilla infinita, cuyo elemento en la esquina izquierda superior es el número 1. A continuación se muestran las primeras 5 capas:
@@ -164,6 +172,8 @@ Después de esto se ingresarán **t** líneas, cada una contendrá un par de ent
 ### Output
 Para cada línea de parejas **y** y **x**, se mostrará por pantalla el valor del espiral que está en dicha posición.
 
+### [Nuestra solución](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W1/number_spiral.py)
+
 ## [Gray Code](https://cses.fi/problemset/task/2205)
 
 Un *Gray Code* es una lista de todas los posibles strings de largo **n**, donde cada par de strings sucesivos difieren exactamente en un solo bit (En otras palabras la distancia de Hamming es exactamente uno).
@@ -173,3 +183,5 @@ El único input que debe recibir el programa es un entero **n**.
 
 ### Output
 Mostrar por pantalla las $2^n$ línas que describen el *Gray Code*. Se admite cualquier solución válida.
+
+### [Nuestra solución](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W1/gray_code.py)
