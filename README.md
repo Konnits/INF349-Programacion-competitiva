@@ -6,3 +6,5 @@ Todos los problemas estarán separados por la semana en la que se realizarán, e
 ## [Semana 0](https://github.com/Konnits/INF349-Programacion-competitiva/tree/master/W0#readme)
 
 ## [Semana 1](https://github.com/Konnits/INF349-Programacion-competitiva/tree/master/W1#readme)
+
+## [Semana 2](https://github.com/Konnits/INF349-Programacion-competitiva/tree/master/W2#readme)
