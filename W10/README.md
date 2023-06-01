@@ -9,4 +9,4 @@ A continuación mostramos los resultados:
 ![School Dance](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W10/Images/school_dance.png)
 
 ## [Download Speed](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W10/dowload_speed.cpp)
-## [Download Speed](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W10/Images/dowload_speed.png)
+![Download Speed](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W10/Images/dowload_speed.png)
