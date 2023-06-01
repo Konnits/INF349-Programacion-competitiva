@@ -21,4 +21,6 @@ Todos los problemas estarán separados por la semana en la que se realizarán, e
 
 ## [Semana 8](https://github.com/Konnits/INF349-Programacion-competitiva/tree/master/W8#readme)
 
-## [Semana 8](https://github.com/Konnits/INF349-Programacion-competitiva/tree/master/W9#readme)
+## [Semana 9](https://github.com/Konnits/INF349-Programacion-competitiva/tree/master/W9#readme)
+
+## [Semana 10](https://github.com/Konnits/INF349-Programacion-competitiva/tree/master/W10#readme)
