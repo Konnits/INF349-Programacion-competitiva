@@ -1,6 +1,6 @@
-# Semana 6
+# Semana 7
 
 A continuación mostramos los resultados:
 
-## [Dynamic Range Minimum Queries](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W6/dynamic_range_minimum_queries.cpp)
-![Dynamic Range Minimum Queries](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W6/Images/multiplication_table.png)
+## [Book Shop](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W07/book_shop.cpp)
+![Book Shop](https://github.com/Konnits/INF349-Programacion-competitiva/blob/master/W07/Images/book_shop.png)
